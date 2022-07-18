@@ -6,6 +6,7 @@ metadata:
     openproject.service: opdata
   name: opdata
 spec:
+  storageClassName: gp3
   accessModes:
     - ReadWriteOnce
   resources:
